@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
 *Use the function printf
 *You are not allowed to use the function puts
