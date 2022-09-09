@@ -1,32 +1,107 @@
+Task #.txt
+
+Who has access
+
+
+
+System properties
+
+Type
+
+Text
+
+Size
+
+532 bytes
+
+Storage used
+
+532 bytes
+
+Location
+
+0x01-variables_if_else_while
+
+Owner
+
+Antony Bahati
+
+Modified
+
+Sep 9, 2022 by Antony Bahati
+
+Opened
+
+1:48 AM by me
+
+Created
+
+Sep 9, 2022
+
+No description
+
+Viewers can download
+
 #include <stdlib.h>
 
 #include <time.h>
+
 #include <stdio.h>
-/* more headers goes there */
-/*prints random number and states whether it is negative or positive or zero */
 
 
-/* betty style doc for function main goes there */
+
+/**
+ *
+ * * main - print if the number is postive, zero, or negative
+ *
+ * *
+ *
+ * * Description: using the main function
+ *
+ * * this program prints "Programming is positive, zero, or negative
+ *
+ * * Return: 0
+ *
+ * */
 
 int main(void)
 
 {
 
-		int n;
+	int n;
 
 
 
-			srand(time(0));
+	srand(time(0));
 
-				n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
-				if (n >0)
-					printf("%d is positive\n".n);
-				else if(n < 0)
-					printf("%d is negative\n".n);
-				else 
-					printf("%d is zero\n".n);
+	  /* your code goes there */
 
-					return (0);
+	if (n > 0)
+
+	{
+
+			printf("%i is positive\n", n);
+
+	}
+
+	else if (n == 0)
+
+	{
+
+			printf("%i is zero\n", n);
+
+	}
+
+	else if (n < 0)
+
+	{
+
+			printf("%i is negative\n", n);
+
+	}
+
+	return (0);
 
 }
